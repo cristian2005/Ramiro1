@@ -1,0 +1,20 @@
+﻿{
+  "Id_modulo": 1,
+  "Modulo": "DASHBOARD"
+}, {
+  "Id_modulo": 2,
+  "Modulo": "CLIENTES"
+}, {
+  "Id_modulo": 3,
+  "Modulo": "USUARIOS"
+}, {
+  "Id_modulo": 4,
+  "Modulo": "CURSOS"
+}, {
+  "Id_modulo": 5,
+  "Modulo": "ADMINISTRACION"
+}, {
+  "Id_modulo": 6,
+  "Modulo": "REPORTES"
+},
+

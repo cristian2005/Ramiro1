@@ -1,0 +1,30 @@
+﻿{
+  "Id": 1,
+  "Id_modulo": 1,
+  "Id_usuario": 1
+}, {
+  "Id": 2,
+  Id_modulo: 2,
+  Id_usuario: 1
+}, {
+  "Id": 3,
+  "Id_modulo": 3,
+  "Id_usuario": 1
+}, {
+  "Id": 4,
+  "Id_modulo": 4,
+  "Id_usuario": 1
+}, {
+  "Id": 5,
+  "Id_modulo": 5,
+  "Id_usuario": 1
+}, {
+  "Id": 6,
+  "Id_modulo": 6,
+  "Id_usuario": 1
+},
+{
+  "Id": 7,
+  "Id_modulo": 1,
+  "Id_usuario": 2
+}

@@ -1,0 +1,14 @@
+C:\Users\cherrera\source\repos\Ramiro\bin\Debug\Ramiro.exe.config
+C:\Users\cherrera\source\repos\Ramiro\bin\Debug\Ramiro.exe
+C:\Users\cherrera\source\repos\Ramiro\bin\Debug\Ramiro.pdb
+C:\Users\cherrera\source\repos\Ramiro\obj\Debug\Ramiro.Dashboard.resources
+C:\Users\cherrera\source\repos\Ramiro\obj\Debug\Ramiro.Properties.Resources.resources
+C:\Users\cherrera\source\repos\Ramiro\obj\Debug\Ramiro.csproj.GenerateResource.cache
+C:\Users\cherrera\source\repos\Ramiro\obj\Debug\Ramiro.csproj.CoreCompileInputs.cache
+C:\Users\cherrera\source\repos\Ramiro\obj\Debug\Ramiro.exe
+C:\Users\cherrera\source\repos\Ramiro\obj\Debug\Ramiro.pdb
+C:\Users\cherrera\source\repos\Ramiro\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\cherrera\source\repos\Ramiro\obj\Debug\Ramiro.csproj.CopyComplete
+C:\Users\cherrera\source\repos\Ramiro\obj\Debug\Ramiro.csprojAssemblyReference.cache
+C:\Users\cherrera\source\repos\Ramiro\obj\Debug\Ramiro.Inicio_Sesion.resources
+C:\Users\cherrera\source\repos\Ramiro\obj\Debug\Ramiro.Form1.resources

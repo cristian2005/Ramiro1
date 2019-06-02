@@ -1,0 +1,15 @@
+﻿{
+  Id_usuario: 1,
+  Nombre: "Ramiro",
+  Apellidos: "Ramirez Ramirez",
+  Usuario: "admin",
+  Clave: "1234",
+  Estado: true
+}, {
+  Id_usuario: 2,
+  Nombre: "Cristian",
+  Apellidos: "Herrera Alcantara",
+  Usuario: "cherrera",
+  Clave: "1234",
+  Estado: true
+},
