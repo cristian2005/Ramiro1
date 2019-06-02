@@ -10,3 +10,15 @@ C:\Users\el_pa_000\Desktop\Ramiro\Data.Access\bin\Debug\EntityFramework.xml
 C:\Users\el_pa_000\Desktop\Ramiro\Data.Access\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\el_pa_000\Desktop\Ramiro\Data.Access\bin\Debug\Newtonsoft.Json.xml
 C:\Users\el_pa_000\Desktop\Ramiro\Data.Access\obj\Debug\Data.Access.csprojResolveAssemblyReference.cache
+C:\Users\Cristian Herrera\Desktop\Ramiro\Data.Access\bin\Debug\Data.Access.dll.config
+C:\Users\Cristian Herrera\Desktop\Ramiro\Data.Access\bin\Debug\Data.Access.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Data.Access\bin\Debug\Data.Access.pdb
+C:\Users\Cristian Herrera\Desktop\Ramiro\Data.Access\bin\Debug\EntityFramework.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Data.Access\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Data.Access\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Data.Access\bin\Debug\EntityFramework.xml
+C:\Users\Cristian Herrera\Desktop\Ramiro\Data.Access\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Cristian Herrera\Desktop\Ramiro\Data.Access\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Cristian Herrera\Desktop\Ramiro\Data.Access\obj\Debug\Data.Access.csprojResolveAssemblyReference.cache
+C:\Users\Cristian Herrera\Desktop\Ramiro\Data.Access\obj\Debug\Data.Access.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Data.Access\obj\Debug\Data.Access.pdb

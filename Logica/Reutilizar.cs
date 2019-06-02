@@ -68,20 +68,10 @@ namespace Logica
             else
             return null;
         }
-       public static string Eliminar_Columna_Data(string obj)
+        public static void MostrarForm(Control control,Control panel)
         {
-            string cadena = "{";
-            var values = obj.Replace("{","").Replace("}","").Split(',');
-            foreach (var item in values)
-            {
-                if (item.IndexOf("Ruta") != -1)
-                {
-
-                }
-                else
-                    cadena += item;
-            }
-            return cadena="}";
+            control.Show();
+            panel.Controls.Add(control);
         }
     }
 }

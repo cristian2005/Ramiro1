@@ -63,9 +63,9 @@ namespace Ramiro.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ADMINISTRACION {
+        internal static System.Drawing.Bitmap admin_setting {
             get {
-                object obj = ResourceManager.GetObject("ADMINISTRACION", resourceCulture);
+                object obj = ResourceManager.GetObject("admin-setting", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Ramiro.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CLIENTES {
+        internal static System.Drawing.Bitmap ADMINISTRACION {
             get {
-                object obj = ResourceManager.GetObject("CLIENTES", resourceCulture);
+                object obj = ResourceManager.GetObject("ADMINISTRACION", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +96,46 @@ namespace Ramiro.Properties {
         internal static System.Drawing.Bitmap DASHBOARD {
             get {
                 object obj = ResourceManager.GetObject("DASHBOARD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ESTUDIANTES {
+            get {
+                object obj = ResourceManager.GetObject("ESTUDIANTES", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_add_user {
+            get {
+                object obj = ResourceManager.GetObject("icons8-add-user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_eye_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-eye-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_search_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-search-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -35,7 +35,7 @@
             this.panelLeft = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panelmodulos = new System.Windows.Forms.FlowLayoutPanel();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -87,12 +87,12 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // flowLayoutPanel1
+            // panelmodulos
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(303, 91);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 156);
-            this.flowLayoutPanel1.TabIndex = 2;
+            this.panelmodulos.Location = new System.Drawing.Point(303, 91);
+            this.panelmodulos.Name = "panelmodulos";
+            this.panelmodulos.Size = new System.Drawing.Size(200, 156);
+            this.panelmodulos.TabIndex = 2;
             // 
             // label7
             // 
@@ -140,7 +140,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.panelmodulos);
             this.Controls.Add(this.panelLeft);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -164,7 +164,7 @@
         private System.Windows.Forms.Panel panelLeft;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel panelmodulos;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button1;

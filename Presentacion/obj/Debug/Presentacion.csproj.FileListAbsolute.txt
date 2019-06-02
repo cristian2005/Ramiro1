@@ -36,3 +36,28 @@ C:\Users\el_pa_000\Desktop\Ramiro\Presentacion\bin\Debug\EntityFramework.xml
 C:\Users\el_pa_000\Desktop\Ramiro\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\el_pa_000\Desktop\Ramiro\Presentacion\bin\Debug\Newtonsoft.Json.xml
 C:\Users\el_pa_000\Desktop\Ramiro\Presentacion\obj\Debug\Ramiro.PermisosModulos.resources
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\Ramiro.exe.config
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\obj\Debug\Ramiro.exe
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\obj\Debug\Ramiro.pdb
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\Ramiro.exe
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\Ramiro.pdb
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\Data.Models.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\EntityFramework.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\Logica.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\Logica.pdb
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\Data.Models.pdb
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\EntityFramework.xml
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\obj\Debug\Ramiro.Dashboard.resources
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\obj\Debug\Ramiro.Inicio_Sesion.resources
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\obj\Debug\Ramiro.PermisosModulos.resources
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\obj\Debug\Ramiro.Properties.Resources.resources
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\obj\Debug\Ramiro.Form1.resources
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\obj\Debug\Ramiro.UserControls.UserControlClientes.resources
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\obj\Debug\Ramiro.UserControls.CLIENTES.AdministraClientes.resources
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\obj\Debug\Ramiro.UserControls.CLIENTES.VistaClientes.resources

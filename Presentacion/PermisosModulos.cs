@@ -1,4 +1,5 @@
 ﻿using Bunifu.Framework.UI;
+using Data.Models;
 using Logica;
 using System;
 using System.Collections.Generic;
@@ -14,8 +15,11 @@ namespace Ramiro
 {
     public partial class PermisosModulos : Form
     {
-        public PermisosModulos()
+        private int id_usuario;
+
+        public PermisosModulos(int id_usuario)
         {
+            this.id_usuario = id_usuario;
             InitializeComponent();
         }
 
@@ -43,7 +47,7 @@ namespace Ramiro
                 label.Text = item;
                 label.Font = new System.Drawing.Font("Century Gothic", 12, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 
-                this.flowLayoutPanel1.Controls.AddRange(new Control[] { check, label });
+                this.panelmodulos.Controls.AddRange(new Control[] { check, label });
             } 
         }
 
@@ -54,7 +58,12 @@ namespace Ramiro
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            if (AccesoModulos.PermisosModulos(panelmodulos, id_usuario))
+            {
+                MessageBox.Show("Permisos a los modulos correctamente", "Acceso modulos", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+                MessageBox.Show("Hubo un error a darle permisos a los modulos", "Acceso modulos", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 }

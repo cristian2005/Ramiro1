@@ -37,36 +37,36 @@ namespace Ramiro
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             BunifuAnimatorNS.Animation animation6 = new BunifuAnimatorNS.Animation();
             this.menuTop = new System.Windows.Forms.Panel();
-            this.Restaurar = new System.Windows.Forms.PictureBox();
-            this.Minimizar = new System.Windows.Forms.PictureBox();
-            this.Maximizar = new System.Windows.Forms.PictureBox();
-            this.Salir = new System.Windows.Forms.PictureBox();
             this.lblnombre = new System.Windows.Forms.Label();
             this.lblmodulo = new System.Windows.Forms.Label();
-            this.MenuSidebar = new System.Windows.Forms.PictureBox();
             this.MoverDashboard = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.Temporizador = new System.Windows.Forms.Timer(this.components);
             this.RadioPanelChart = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.AnimacionSidebarBack = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.SidebarWrapper = new System.Windows.Forms.Panel();
+            this.Wrapper = new System.Windows.Forms.Panel();
+            this.AnimacionSidebar = new BunifuAnimatorNS.BunifuTransition(this.components);
+            this.CurvaSidebar = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.Sidebar = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.panelmodulos = new System.Windows.Forms.FlowLayoutPanel();
             this.LineaSidebar = new Bunifu.Framework.UI.BunifuSeparator();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Wrapper = new System.Windows.Forms.Panel();
+            this.Restaurar = new System.Windows.Forms.PictureBox();
+            this.Minimizar = new System.Windows.Forms.PictureBox();
+            this.Maximizar = new System.Windows.Forms.PictureBox();
+            this.Salir = new System.Windows.Forms.PictureBox();
+            this.MenuSidebar = new System.Windows.Forms.PictureBox();
             this.pbmove = new System.Windows.Forms.PictureBox();
-            this.AnimacionSidebar = new BunifuAnimatorNS.BunifuTransition(this.components);
-            this.CurvaSidebar = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.menuTop.SuspendLayout();
+            this.SidebarWrapper.SuspendLayout();
+            this.Sidebar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Restaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Minimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Maximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Salir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MenuSidebar)).BeginInit();
-            this.SidebarWrapper.SuspendLayout();
-            this.Sidebar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbmove)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,65 +86,8 @@ namespace Ramiro
             this.menuTop.Location = new System.Drawing.Point(0, 0);
             this.menuTop.Margin = new System.Windows.Forms.Padding(2);
             this.menuTop.Name = "menuTop";
-            this.menuTop.Size = new System.Drawing.Size(971, 65);
+            this.menuTop.Size = new System.Drawing.Size(1078, 65);
             this.menuTop.TabIndex = 0;
-            // 
-            // Restaurar
-            // 
-            this.Restaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.AnimacionSidebarBack.SetDecoration(this.Restaurar, BunifuAnimatorNS.DecorationType.None);
-            this.AnimacionSidebar.SetDecoration(this.Restaurar, BunifuAnimatorNS.DecorationType.None);
-            this.Restaurar.Image = ((System.Drawing.Image)(resources.GetObject("Restaurar.Image")));
-            this.Restaurar.Location = new System.Drawing.Point(898, 24);
-            this.Restaurar.Name = "Restaurar";
-            this.Restaurar.Size = new System.Drawing.Size(30, 30);
-            this.Restaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Restaurar.TabIndex = 9;
-            this.Restaurar.TabStop = false;
-            this.Restaurar.Visible = false;
-            this.Restaurar.Click += new System.EventHandler(this.Restaurar_Click);
-            // 
-            // Minimizar
-            // 
-            this.Minimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.AnimacionSidebarBack.SetDecoration(this.Minimizar, BunifuAnimatorNS.DecorationType.None);
-            this.AnimacionSidebar.SetDecoration(this.Minimizar, BunifuAnimatorNS.DecorationType.None);
-            this.Minimizar.Image = ((System.Drawing.Image)(resources.GetObject("Minimizar.Image")));
-            this.Minimizar.Location = new System.Drawing.Point(862, 24);
-            this.Minimizar.Name = "Minimizar";
-            this.Minimizar.Size = new System.Drawing.Size(30, 30);
-            this.Minimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Minimizar.TabIndex = 8;
-            this.Minimizar.TabStop = false;
-            this.Minimizar.Click += new System.EventHandler(this.Minimizar_Click);
-            // 
-            // Maximizar
-            // 
-            this.Maximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.AnimacionSidebarBack.SetDecoration(this.Maximizar, BunifuAnimatorNS.DecorationType.None);
-            this.AnimacionSidebar.SetDecoration(this.Maximizar, BunifuAnimatorNS.DecorationType.None);
-            this.Maximizar.Image = ((System.Drawing.Image)(resources.GetObject("Maximizar.Image")));
-            this.Maximizar.Location = new System.Drawing.Point(898, 24);
-            this.Maximizar.Name = "Maximizar";
-            this.Maximizar.Size = new System.Drawing.Size(30, 30);
-            this.Maximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Maximizar.TabIndex = 7;
-            this.Maximizar.TabStop = false;
-            this.Maximizar.Click += new System.EventHandler(this.Maximizar_Click);
-            // 
-            // Salir
-            // 
-            this.Salir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.AnimacionSidebarBack.SetDecoration(this.Salir, BunifuAnimatorNS.DecorationType.None);
-            this.AnimacionSidebar.SetDecoration(this.Salir, BunifuAnimatorNS.DecorationType.None);
-            this.Salir.Image = ((System.Drawing.Image)(resources.GetObject("Salir.Image")));
-            this.Salir.Location = new System.Drawing.Point(934, 24);
-            this.Salir.Name = "Salir";
-            this.Salir.Size = new System.Drawing.Size(30, 30);
-            this.Salir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Salir.TabIndex = 6;
-            this.Salir.TabStop = false;
-            this.Salir.Click += new System.EventHandler(this.Salir_Click);
             // 
             // lblnombre
             // 
@@ -172,20 +115,6 @@ namespace Ramiro
             this.lblmodulo.TabIndex = 3;
             this.lblmodulo.Text = "DASHBOARD";
             this.lblmodulo.Click += new System.EventHandler(this.lblmodulo_Click);
-            // 
-            // MenuSidebar
-            // 
-            this.MenuSidebar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AnimacionSidebarBack.SetDecoration(this.MenuSidebar, BunifuAnimatorNS.DecorationType.None);
-            this.AnimacionSidebar.SetDecoration(this.MenuSidebar, BunifuAnimatorNS.DecorationType.None);
-            this.MenuSidebar.Image = ((System.Drawing.Image)(resources.GetObject("MenuSidebar.Image")));
-            this.MenuSidebar.Location = new System.Drawing.Point(34, 24);
-            this.MenuSidebar.Name = "MenuSidebar";
-            this.MenuSidebar.Size = new System.Drawing.Size(30, 30);
-            this.MenuSidebar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.MenuSidebar.TabIndex = 2;
-            this.MenuSidebar.TabStop = false;
-            this.MenuSidebar.Click += new System.EventHandler(this.MenuSidebar_Click);
             // 
             // MoverDashboard
             // 
@@ -233,8 +162,45 @@ namespace Ramiro
             this.SidebarWrapper.Dock = System.Windows.Forms.DockStyle.Left;
             this.SidebarWrapper.Location = new System.Drawing.Point(0, 65);
             this.SidebarWrapper.Name = "SidebarWrapper";
-            this.SidebarWrapper.Size = new System.Drawing.Size(300, 558);
+            this.SidebarWrapper.Size = new System.Drawing.Size(300, 569);
             this.SidebarWrapper.TabIndex = 2;
+            // 
+            // Wrapper
+            // 
+            this.Wrapper.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.AnimacionSidebar.SetDecoration(this.Wrapper, BunifuAnimatorNS.DecorationType.None);
+            this.AnimacionSidebarBack.SetDecoration(this.Wrapper, BunifuAnimatorNS.DecorationType.None);
+            this.Wrapper.Dock = System.Windows.Forms.DockStyle.Right;
+            this.Wrapper.Location = new System.Drawing.Point(306, 65);
+            this.Wrapper.Name = "Wrapper";
+            this.Wrapper.Size = new System.Drawing.Size(772, 569);
+            this.Wrapper.TabIndex = 2;
+            // 
+            // AnimacionSidebar
+            // 
+            this.AnimacionSidebar.AnimationType = BunifuAnimatorNS.AnimationType.Particles;
+            this.AnimacionSidebar.Cursor = null;
+            animation6.AnimateOnlyDifferences = true;
+            animation6.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.BlindCoeff")));
+            animation6.LeafCoeff = 0F;
+            animation6.MaxTime = 1F;
+            animation6.MinTime = 0F;
+            animation6.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.MosaicCoeff")));
+            animation6.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation6.MosaicShift")));
+            animation6.MosaicSize = 1;
+            animation6.Padding = new System.Windows.Forms.Padding(100, 50, 100, 150);
+            animation6.RotateCoeff = 0F;
+            animation6.RotateLimit = 0F;
+            animation6.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.ScaleCoeff")));
+            animation6.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.SlideCoeff")));
+            animation6.TimeCoeff = 2F;
+            animation6.TransparencyCoeff = 0F;
+            this.AnimacionSidebar.DefaultAnimation = animation6;
+            // 
+            // CurvaSidebar
+            // 
+            this.CurvaSidebar.ElipseRadius = 7;
+            this.CurvaSidebar.TargetControl = this.Sidebar;
             // 
             // Sidebar
             // 
@@ -254,7 +220,7 @@ namespace Ramiro
             this.Sidebar.Location = new System.Drawing.Point(0, 0);
             this.Sidebar.Name = "Sidebar";
             this.Sidebar.Quality = 10;
-            this.Sidebar.Size = new System.Drawing.Size(292, 558);
+            this.Sidebar.Size = new System.Drawing.Size(292, 569);
             this.Sidebar.TabIndex = 0;
             // 
             // panelmodulos
@@ -310,16 +276,76 @@ namespace Ramiro
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // Wrapper
+            // Restaurar
             // 
-            this.Wrapper.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            this.AnimacionSidebar.SetDecoration(this.Wrapper, BunifuAnimatorNS.DecorationType.None);
-            this.AnimacionSidebarBack.SetDecoration(this.Wrapper, BunifuAnimatorNS.DecorationType.None);
-            this.Wrapper.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Wrapper.Location = new System.Drawing.Point(298, 65);
-            this.Wrapper.Name = "Wrapper";
-            this.Wrapper.Size = new System.Drawing.Size(673, 558);
-            this.Wrapper.TabIndex = 2;
+            this.Restaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AnimacionSidebarBack.SetDecoration(this.Restaurar, BunifuAnimatorNS.DecorationType.None);
+            this.AnimacionSidebar.SetDecoration(this.Restaurar, BunifuAnimatorNS.DecorationType.None);
+            this.Restaurar.Image = ((System.Drawing.Image)(resources.GetObject("Restaurar.Image")));
+            this.Restaurar.Location = new System.Drawing.Point(1005, 24);
+            this.Restaurar.Name = "Restaurar";
+            this.Restaurar.Size = new System.Drawing.Size(30, 30);
+            this.Restaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Restaurar.TabIndex = 9;
+            this.Restaurar.TabStop = false;
+            this.Restaurar.Visible = false;
+            this.Restaurar.Click += new System.EventHandler(this.Restaurar_Click);
+            // 
+            // Minimizar
+            // 
+            this.Minimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AnimacionSidebarBack.SetDecoration(this.Minimizar, BunifuAnimatorNS.DecorationType.None);
+            this.AnimacionSidebar.SetDecoration(this.Minimizar, BunifuAnimatorNS.DecorationType.None);
+            this.Minimizar.Image = ((System.Drawing.Image)(resources.GetObject("Minimizar.Image")));
+            this.Minimizar.Location = new System.Drawing.Point(969, 24);
+            this.Minimizar.Name = "Minimizar";
+            this.Minimizar.Size = new System.Drawing.Size(30, 30);
+            this.Minimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Minimizar.TabIndex = 8;
+            this.Minimizar.TabStop = false;
+            this.Minimizar.Click += new System.EventHandler(this.Minimizar_Click);
+            // 
+            // Maximizar
+            // 
+            this.Maximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AnimacionSidebarBack.SetDecoration(this.Maximizar, BunifuAnimatorNS.DecorationType.None);
+            this.AnimacionSidebar.SetDecoration(this.Maximizar, BunifuAnimatorNS.DecorationType.None);
+            this.Maximizar.Image = ((System.Drawing.Image)(resources.GetObject("Maximizar.Image")));
+            this.Maximizar.Location = new System.Drawing.Point(1005, 24);
+            this.Maximizar.Name = "Maximizar";
+            this.Maximizar.Size = new System.Drawing.Size(30, 30);
+            this.Maximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Maximizar.TabIndex = 7;
+            this.Maximizar.TabStop = false;
+            this.Maximizar.Click += new System.EventHandler(this.Maximizar_Click);
+            // 
+            // Salir
+            // 
+            this.Salir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AnimacionSidebarBack.SetDecoration(this.Salir, BunifuAnimatorNS.DecorationType.None);
+            this.AnimacionSidebar.SetDecoration(this.Salir, BunifuAnimatorNS.DecorationType.None);
+            this.Salir.Image = ((System.Drawing.Image)(resources.GetObject("Salir.Image")));
+            this.Salir.Location = new System.Drawing.Point(1041, 24);
+            this.Salir.Name = "Salir";
+            this.Salir.Size = new System.Drawing.Size(30, 30);
+            this.Salir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Salir.TabIndex = 6;
+            this.Salir.TabStop = false;
+            this.Salir.Click += new System.EventHandler(this.Salir_Click);
+            // 
+            // MenuSidebar
+            // 
+            this.MenuSidebar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AnimacionSidebarBack.SetDecoration(this.MenuSidebar, BunifuAnimatorNS.DecorationType.None);
+            this.AnimacionSidebar.SetDecoration(this.MenuSidebar, BunifuAnimatorNS.DecorationType.None);
+            this.MenuSidebar.Image = ((System.Drawing.Image)(resources.GetObject("MenuSidebar.Image")));
+            this.MenuSidebar.Location = new System.Drawing.Point(34, 24);
+            this.MenuSidebar.Name = "MenuSidebar";
+            this.MenuSidebar.Size = new System.Drawing.Size(30, 30);
+            this.MenuSidebar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.MenuSidebar.TabIndex = 2;
+            this.MenuSidebar.TabStop = false;
+            this.MenuSidebar.Click += new System.EventHandler(this.MenuSidebar_Click);
             // 
             // pbmove
             // 
@@ -331,38 +357,12 @@ namespace Ramiro
             this.pbmove.TabIndex = 0;
             this.pbmove.TabStop = false;
             // 
-            // AnimacionSidebar
-            // 
-            this.AnimacionSidebar.AnimationType = BunifuAnimatorNS.AnimationType.Particles;
-            this.AnimacionSidebar.Cursor = null;
-            animation6.AnimateOnlyDifferences = true;
-            animation6.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.BlindCoeff")));
-            animation6.LeafCoeff = 0F;
-            animation6.MaxTime = 1F;
-            animation6.MinTime = 0F;
-            animation6.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.MosaicCoeff")));
-            animation6.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation6.MosaicShift")));
-            animation6.MosaicSize = 1;
-            animation6.Padding = new System.Windows.Forms.Padding(100, 50, 100, 150);
-            animation6.RotateCoeff = 0F;
-            animation6.RotateLimit = 0F;
-            animation6.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.ScaleCoeff")));
-            animation6.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.SlideCoeff")));
-            animation6.TimeCoeff = 2F;
-            animation6.TransparencyCoeff = 0F;
-            this.AnimacionSidebar.DefaultAnimation = animation6;
-            // 
-            // CurvaSidebar
-            // 
-            this.CurvaSidebar.ElipseRadius = 7;
-            this.CurvaSidebar.TargetControl = this.Sidebar;
-            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            this.ClientSize = new System.Drawing.Size(971, 623);
+            this.ClientSize = new System.Drawing.Size(1078, 634);
             this.Controls.Add(this.SidebarWrapper);
             this.Controls.Add(this.Wrapper);
             this.Controls.Add(this.menuTop);
@@ -377,15 +377,15 @@ namespace Ramiro
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.menuTop.ResumeLayout(false);
             this.menuTop.PerformLayout();
+            this.SidebarWrapper.ResumeLayout(false);
+            this.Sidebar.ResumeLayout(false);
+            this.Sidebar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Restaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Minimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Maximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Salir)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MenuSidebar)).EndInit();
-            this.SidebarWrapper.ResumeLayout(false);
-            this.Sidebar.ResumeLayout(false);
-            this.Sidebar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbmove)).EndInit();
             this.ResumeLayout(false);
 

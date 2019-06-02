@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\Presentacion\bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\Presentacion\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -66,6 +69,12 @@
     <Compile Include="ReutilizarUR.cs" />
     <Compile Include="Reutilizar_CS.cs" />
     <Compile Include="Reutilizar_DB.cs" />
+    <Compile Include="UserControlClientes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlClientes.Designer.cs">
+      <DependentUpon>UserControlClientes.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -76,6 +85,11 @@
       <Project>{6eaf282b-6b7b-4d49-a3c0-3771b1536f06}</Project>
       <Name>Data.Access</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UserControlClientes.resx">
+      <DependentUpon>UserControlClientes.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

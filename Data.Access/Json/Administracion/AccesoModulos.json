@@ -27,4 +27,7 @@
   "Id": 7,
   "Id_modulo": 1,
   "Id_usuario": 2
-}
+},{"Id":8,"Id_modulo":1,"Id_usuario":3},
+{"Id":9,"Id_modulo":2,"Id_usuario":3},
+{"Id":10,"Id_modulo":4,"Id_usuario":3},
+{"Id":11,"Id_modulo":6,"Id_usuario":3},

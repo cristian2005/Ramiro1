@@ -12,3 +12,18 @@ C:\Users\el_pa_000\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\Newtonsoft.
 C:\Users\el_pa_000\Desktop\Ramiro\Presentacion\Data.Models\obj\Debug\Data.Models.csprojResolveAssemblyReference.cache
 C:\Users\el_pa_000\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\Logica.dll
 C:\Users\el_pa_000\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\Logica.pdb
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\Data.Models.dll.config
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\Data.Models.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\Data.Models.pdb
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\EntityFramework.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\Logica.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\Logica.pdb
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\EntityFramework.xml
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\obj\Debug\Data.Models.csprojResolveAssemblyReference.cache
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\obj\Debug\Data.Models.dll
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\obj\Debug\Data.Models.pdb
+C:\Users\Cristian Herrera\Desktop\Ramiro\Presentacion\Data.Models\bin\Debug\Bunifu_UI_v1.5.3.dll

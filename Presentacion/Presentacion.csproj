@@ -97,6 +97,18 @@
     <Compile Include="Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\CLIENTES\AdministraClientes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\CLIENTES\AdministraClientes.Designer.cs">
+      <DependentUpon>AdministraClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CLIENTES\VistaClientes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\CLIENTES\VistaClientes.Designer.cs">
+      <DependentUpon>VistaClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\UserControlAdministracion.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -150,6 +162,12 @@
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\CLIENTES\AdministraClientes.resx">
+      <DependentUpon>AdministraClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\CLIENTES\VistaClientes.resx">
+      <DependentUpon>VistaClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UserControlClientes.resx">
       <DependentUpon>UserControlClientes.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,9 +196,13 @@
     <None Include="ICONOS\ADMINISTRACION.png" />
     <None Include="ICONOS\CLIENTES.png" />
     <Content Include="logo.ico" />
+    <None Include="Resources\admin-setting.png" />
     <Content Include="Resources\ADMINISTRACION.png" />
     <Content Include="Resources\CURSOS.png" />
     <Content Include="Resources\DASHBOARD.png" />
+    <None Include="Resources\icons8-eye-48.png" />
+    <None Include="Resources\icons8-add-user.png" />
+    <None Include="Resources\icons8-search-48.png" />
     <Content Include="Resources\REPORTES.png" />
     <Content Include="Resources\USUARIOS.png" />
     <None Include="Resources\CLIENTES.png" />
@@ -195,6 +217,13 @@
       <Project>{D9322760-56A8-4108-B183-BC6376D141E3}</Project>
       <Name>Data.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserControls\ADMINISTRACION\" />
+    <Folder Include="UserControls\CURSOS\" />
+    <Folder Include="UserControls\DASHBOARD\" />
+    <Folder Include="UserControls\REPORTES\" />
+    <Folder Include="UserControls\USUARIOS\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

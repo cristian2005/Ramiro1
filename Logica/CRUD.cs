@@ -29,7 +29,12 @@ namespace Logica
             }
             return null;
         }
-
+        /// <summary>
+        /// Inserta datos en la ruta especificada
+        /// </summary>
+        /// <param name="data"></param>
+        /// <param name="ruta"></param>
+        /// <returns></returns>
         public static bool Insert_Data(dynamic data,string ruta)
         {
             var obj =  JsonConvert.SerializeObject(data) + ",";

@@ -55,7 +55,7 @@ namespace Ramiro
 
         private void MenuSidebar_Click(object sender, EventArgs e)
         {
-            if (Sidebar.Width == 270)
+            if (Sidebar.Width == 292)
             {
                 Sidebar.Visible = false;
                 Sidebar.Width = 68;
@@ -101,12 +101,13 @@ namespace Ramiro
         /// <returns></returns>
         public Image Get_Icono_Modulo(string icono_name)
         {
+            
             switch (icono_name)
             {
-                case "CLIENTES":
-                    return Properties.Resources.CLIENTES;
-                case "USUARIOS":
+                case "ESTUDIANTES":
                     return Properties.Resources.USUARIOS;
+                case "USUARIOS":
+                    return Properties.Resources.ESTUDIANTES;
                 case "CURSOS":
                     return Properties.Resources.CURSOS;
                 case "ADMINISTRACION":
@@ -128,12 +129,13 @@ namespace Ramiro
         private void btn_modulos_click(object sender, EventArgs e)
         {
             BunifuFlatButton boton = sender as BunifuFlatButton;
+            lblmodulo.Text = boton.Name;
             switch (boton.Name)
             {
                 case "REPORTES":
                     boton_click_reportes(boton,e);
                     break;
-                case "CLIENTES":
+                case "ESTUDIANTES":
                     boton_click_cliente(boton, e);
                     break;
                 case "USUARIOS":

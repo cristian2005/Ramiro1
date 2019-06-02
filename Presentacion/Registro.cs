@@ -26,10 +26,11 @@ namespace Ramiro
 
         private void Button1_Click(object sender, EventArgs e)
         {
-         var result=  CRUD.Insert_Data(new Usuarios { Id_usuario=Usuarios.Get_Max_Id(), Apellidos =btxtapellido.Text, Clave=btncontra.Text, Estado=bunifuCheckbox1.Checked, Nombre= btxtnombre.Text, Usuario=btnusuario.Text }, GlobalS.URL_JSON+ Usuarios.ruta);
+            var user = new Usuarios { Id_usuario = Usuarios.Get_Max_Id(), Apellidos = btxtapellido.Text, Clave = btncontra.Text, Estado = bunifuCheckbox1.Checked, Nombre = btxtnombre.Text, Usuario = btnusuario.Text };
+         var result=  CRUD.Insert_Data(user, GlobalS.URL_JSON+ Usuarios.ruta);
             if (result)
             {
-                new PermisosModulos().Show();
+                new PermisosModulos(user.Id_usuario).Show();
                 this.Hide();
             }
             else
